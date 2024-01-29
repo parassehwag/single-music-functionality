@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d12924837a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+            <div class="nav">
+                <div class="circle">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <img src="media/thumbnail.png"/>
+            <h1>Ram Siya Ram</h1>
+            <p>Paras Sehwag</p>
+            <audio id="song">
+                <source src="media/RamSiyaRam.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <i class="fa-solid fa-backward"></i>
+                <i class="fa-solid fa-play" id="playIcon" onClick="playPause()"></i>
+                <i class="fa-solid fa-forward"></i>
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+</html>
